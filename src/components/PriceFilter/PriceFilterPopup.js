@@ -128,6 +128,7 @@ class PriceFilterPopup extends Component {
         className={classes}
         onBlur={this.handleBlur}
         onKeyDown={this.handleKeyDown}
+        tabIndex={-1}
         ref={node => {
           this.filter = node;
         }}
